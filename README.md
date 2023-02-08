@@ -1,5 +1,29 @@
+# TypeScript Fundamentals
+
+## Installation
 
 
-//COMMANDS:
+```shell
+npm init -y
+```
 
-//npx tsc -p ./ -w
+```shell
+npm install typescript --save-dev
+```
+```shell
+npx tsc --version
+```
+
+## Initialize
+#### Create tsconfig.json
+
+```bash
+npx tsc --init
+
+```
+## Compilation in real time
+
+```bash
+npx tsc --watch
+
+```
